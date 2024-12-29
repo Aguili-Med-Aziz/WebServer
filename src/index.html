@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded Web Server</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sensor Data and Motor Control</h1>
+
+  <div id="sensorData"></div>
+  
+  <h2>Motor Speed Control</h2>
+  <input type="range" id="motorSpeedSlider" min="0" max="255" step="1" />
+  <button onclick="updateMotorSpeed()">Set Speed</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
